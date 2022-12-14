@@ -1,0 +1,58 @@
+
+html{
+    background-color: rgb(250, 249, 231);
+
+
+
+}
+
+
+
+header{
+    background-image: url(terror.png);
+    height: 400px;
+    width: 1500px;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+
+}
+
+
+main{
+    background-color: rgba(238, 39, 39, 0.51);
+
+
+}
+
+div{
+    background-color: rgb(250, 249, 231);
+    width: 1480px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+
+}
+
+img:hover{
+    -webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+transition: 1s ease;
+}
+
+
+img{
+width: 175px;
+height: 180px;
+
+}
